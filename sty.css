@@ -1,0 +1,36 @@
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    
+}
+
+.mfx-button {
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+}
+
+.mfx-combo-box {
+    -fx-background-color: pink;
+    -fx-background-radius: 5px;
+}
+
+.task-card {
+    -fx-background-color: white;
+    -fx-padding: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+   -fx-effect: dropshadow(gaussian, blur,10,0.5,0,0);
+   
+}
+
+.timestamp {
+    -fx-font-size: 12px;
+    -fx-text-fill: grey;
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,37 @@
+.dialog-pane{
+    -fx-border-radius: 10px;
+    -fx-font-size:20px;
+     -fx-padding: 10px;
+    -fx-focus-color: violet;
+}
+
+MFXTextField{
+    -fx-font-size:20px;
+    -fx-font-color: blue;
+     -fx-padding: 10px;
+    -fx-focus-color: violet;
+}
+
+TextArea {
+    -fx-font-size:20px;
+    -fx-font-color: black;
+      -fx-padding: 10px;
+    -fx-focus-color: violet;
+}
+
+.cancel{
+    -fx-border-radius: 10px;
+    -fx-text-fill:white;
+    -fx-background-color:red;
+}
+.cancel:hover{
+    -fx-background-color:orange;
+}
+.submit{
+    -fx-border-radius: 10px;
+    -fx-text-fill:white;
+    -fx-background-color:green;
+}
+.submit:hover{
+    -fx-background-color:orange;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXComboBox?>
+
+<HBox prefHeight="400.0"
+            prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/26"
+            xmlns:fx="http://javafx.com/fxml/"
+            fx:controller="TaskController"
+            spacing="10" 
+            alignment="CENTER"
+            styleClass="task-card">
+        <VBox spacing="5" HBox.hgrow="ALWAYS">
+        <Label fx:id="taskName" text="Task Name" />
+        <Label fx:id="taskTimeStamp" text="TimeStamp" styleClass="timestamp" />
+        
+        </VBox>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Label fx:id="taskStatus" text="TODO" prefWidth="100"/>
+        <MFXButton text="View " onAction="#handleViewTask" />
+</HBox>

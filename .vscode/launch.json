@@ -1,0 +1,99 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launcher",
+            "request": "launch",
+            "mainClass": "Launcher",
+            "projectName": "K_1f5493"
+        },
+        {
+            "type": "java",
+            "name": "ImageViewExample",
+            "request": "launch",
+            "mainClass": "ImageViewExample",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "CombinedAnimationExample",
+            "request": "launch",
+            "mainClass": "CombinedAnimationExample",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "SpExample",
+            "request": "launch",
+            "mainClass": "SpExample",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "ScaleExample",
+            "request": "launch",
+            "mainClass": "ScaleExample",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "RotateExample",
+            "request": "launch",
+            "mainClass": "RotateExample",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "FadeExample",
+            "request": "launch",
+            "mainClass": "FadeExample",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "ChainAnimationExample",
+            "request": "launch",
+            "mainClass": "ChainAnimationExample",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "MsApp",
+            "request": "launch",
+            "mainClass": "MsApp",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "MoveShapeApp",
+            "request": "launch",
+            "mainClass": "MoveShapeApp",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "SceneSwitchingApp",
+            "request": "launch",
+            "mainClass": "SceneSwitchingApp",
+            "projectName": "K_1f5493",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloFX",
+            "request": "launch",
+            "mainClass": "HelloFX",
+            "vmArgs": "--module-path \"C:/Users/swiss/Downloads/openjfx-26.0.1_windows-x64_bin-sdk/javafx-sdk-26.0.1/lib\" --add-modules javafx.controls,javafx.fxml --enable-native-access=javafx.graphics"
+        }
+    ]
+}

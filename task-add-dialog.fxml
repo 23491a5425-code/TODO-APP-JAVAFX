@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import io.github.palexdev.materialfx.controls.MFXTextField?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXComboBox?>
+
+
+
+<VBox prefHeight="400.0"
+            prefWidth="400.0"
+            xmlns="http://javafx.com/javafx/26"
+            xmlns:fx="http://javafx.com/fxml/"
+            fx:controller="TaskDialogController"
+            spacing="10" 
+            alignment="CENTER" styleClass="dialog-pane">
+            <Label text="Add new Task"/>
+            <MFXTextField fx:id="taskTitleField" promptText="Enter Task Title" 
+                            floatingText="Task Title" prefWidth="400" />
+         <Label text=" Task Description"/>
+            <TextArea fx:id="taskDescriptionField" promptText="Enter Task Description" 
+                            wrapText="true" prefWidth="400" prefHeight="400" />
+        <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Region HBox.hgrow="ALWAYS"/>
+        <MFXButton text="cancel" styleClass="cancel" onAction="#handleCancel" prefHeight="30" />
+          <MFXButton text="submit"  styleClass="submit" onAction="#handleSubmit" prefHeight="30" />
+          </HBox>
+    </VBox>
